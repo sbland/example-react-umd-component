@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preview</title>
+  </head>
+  <body>
+    <h1>Welcome to the Preview Page</h1>
+    <p>This is a simple HTML template.</p>
+    <div id="root"></div>
+    <script type="module">
+      import { renderExampleComponent } from "./dist/example-umd.js";
+      renderExampleComponent("root", "Hello from the example component!");
+    </script>
+  </body>
+</html>
